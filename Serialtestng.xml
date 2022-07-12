@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SerialUse1">
+    <classes>
+      <class name="ParallelAndSerialExecution.TestClass1"/>
+    </classes>
+  </test> <!-- SerialUse -->
+
+
+ <test thread-count="5" name="SerialUse2">
+    <classes>
+      <class name="ParallelAndSerialExecution.TestClass2"/>
+    </classes>
+  </test> <!-- SerialUse -->
+</suite> <!-- Suite -->

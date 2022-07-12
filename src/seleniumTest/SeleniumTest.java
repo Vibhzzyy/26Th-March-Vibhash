@@ -23,6 +23,7 @@ public class SeleniumTest {
 		
 		//WD.findElement(By.xpath("//h1[text()=' header1 font-weight-bold text-white text-center']")); // Xpath Text
 		
+		System.out.println("Checking for GitHub");
 		// Xpath by contains()
 		
 		//WD.findElement(By.xpath("//h1[contains(text(),'Welcome To ')]")); //Contains by text method
